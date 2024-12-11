@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-*{
-    margin: 0;padding: 0;
-    font-family: "Poppins", sans-serif;
-}
 
-.bgimage img {
-  position: relative;
-  width: 1512px;
-  height: 579px;
-  filter: brightness(34%);
-  object-fit: fill;
+*{
+  font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.bgimage img{
+    position: relative;
+    width: 1512px;
+    height: 579px;
+    filter: brightness(34%);
+    object-fit: fill;
 }
 /* .nav{
     
@@ -18,117 +19,297 @@
     align-items: center;
 } */
 nav {
-  position: absolute;
-  top: 45px;
-  left: 86px;
-  gap: 34px;
-  border: 2px solid black;
-  width: 1288px;
-  height: 90px;
-  background-color: white;
-}
-nav ul {
-  display: flex;
-  gap: 52px;
-  margin: 35px 0px 0px 150px;
-}
-nav ul a {
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-}
-nav span {
-  position: absolute;
-  top: 34px;
-  left: 896px;
-  display: flex;
-  gap: 41px;
-  align-items: first baseline;
-}
-.logo p {
-  color: rgba(7, 56, 85, 1);
-  position: absolute;
-  left: 646px;
-  top: 39px;
-  font-style: unset;
-  font-family: Poppins;
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 33px;
-  text-align: left;
-}
-.logo svg {
-  position: absolute;
-  left: 589px;
-  top: 22px;
-}
-.about > a {
-  text-decoration: none;
-  font-size: 27px;
-  position: absolute;
-  top: 230px;
-  left: 119px;
-  color: white;
-}
-.smalabou {
-  display: flex;
-  gap: 30px;
-  position: absolute;
-  top: 359px;
-  left: 145px;
-  font-size: 18px;
-}
-.smalabou a {
-  text-decoration: none;
-  color: white;
-}
-.imagecont{
-    margin: 50px;
+    position: absolute;
+    top: 45px;
+    left: 86px;
+    gap: 34px;
+    border: 2px solid black;
+    width: 1288px;
+    height: 90px;
+    background-color: white;
+  }
+  nav ul{
     display: flex;
-    flex-wrap: wrap;
-    gap: 54px;
-    position: relative;
-    width: 1337px;
+    gap: 52px;
+    margin: 35px 0px 0px 150px;
 
-}
-.btn{
-    cursor: pointer;
-    border-radius: 7px;
-    width: 141px;
-    position: absolute;
-    left: 51px;
-    top: 378px;
-    text-align: center;
-    padding: 8px;
-    border: 1px solid transparent;
-}
-.images{
-    position: relative;
-}
-.images h2{
-    position: absolute;
-    top: 12px;
-    color: white;
-    width: 123px;
-    font-weight: lighter;
-    font-size: 34px;
-    left: 25px;
-}
-.images a{
-    color: white;
+
+  }
+  nav ul a{
+    color: black;
     text-decoration: none;
+    font-size: 20px;
+  }
+  nav span{
     position: absolute;
-    top: 119px;
-    left: 29px;
+    top: 34px;
+    left: 896px;
+    display: flex;
+    gap: 41px;
+    align-items: first baseline;
+  }
+  .logo p {
+    color: rgba(7, 56, 85, 1);
+    position: absolute;
+    left: 646px;
+    top: 39px;
+    font-style: unset;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: left;
+  }
+  .logo svg{
+    position: absolute;
+    left: 589px;
+    top: 22px;
+  }
+.about > a{
+  text-decoration: none;
+    font-size: 27px;
+    position: absolute;
+    top: 230px;
+    left: 119px;
+    color: white;
+}
+.smalabou{
+  display: flex;
+    gap: 24px;
+    position: absolute;
+    top: 330px;
+    left: 175px;
+    font-size: 18px;
+}
+.smalabou a{
+  text-decoration: none;
+    color: white;
+}
+.lineone{
+    margin-top: 50px;
+    margin-left: 58px;
+    color:rgba(112, 112, 112, 1);    
 
 }
-.allimages{
-    width: 401px;
-    height: 421px;
+.lineone a{
+    color:rgba(112, 112, 112, 1); 
+    text-decoration: none;
+}
+.linetwo{
+    display: flex;
+}
+.linetwo h1{    
+    width: 432px;
+    margin: 39px 0px 0px 53px;
+}
+.linetwo p{
+    line-height: 48px;
+    color: rgba(7, 56, 85, 1);
+    font-size: 24px;
+    font-weight: 600;
+    margin: 66px 0px 0px 46px;   
+}
+.linetwo div{
+    line-height: 48px;
+    color: rgba(7, 56, 85, 1);
+    font-size: 24px;
+    font-weight: 600;
+    margin: 66px 0px 0px 138px; 
+}
+.maincontainer{
+    margin: 51px;
+    position: relative;
+    width: 1352px;
+    height: 729px;
+    border: 1px solid rgba(112, 112, 112, 1);
+}
+.maincontainer img{
+    position: relative;
+    width: 833px;
+    height: 600px;
+    margin: 63px 92px
+}
+.maincontainer a{
+    text-decoration: none;
+}
 
+.maincontainertwo{
+    margin-top: 34px;
+    position: relative;
+    width: 1352px;
+    height: 729px;
+    border: 1px solid rgba(112, 112, 112, 1);
+}
+.maincontainertwo img{
+    position: relative;
+    width: 833px;
+    height: 600px;
+    margin: 63px 92px
+}
+.maincontainertwo a{
+    text-decoration: none;
+}
+.maincontainerthree{
+    margin-top: 34px;
+    position: relative;
+    width: 1352px;
+    height: 729px;
+    border: 1px solid rgba(112, 112, 112, 1);
+}
+.maincontainerthree img{
+    position: relative;
+    width: 833px;
+    height: 600px;
+    margin: 63px 92px
+}
+.maincontainerthree a{
+    text-decoration: none;
 }
 
 
+.maincontainerfour{
+    margin-top: 34px;
+    position: relative;
+    width: 1352px;
+    height: 729px;
+    border: 1px solid rgba(112, 112, 112, 1);
+}
+.maincontainerfour img{
+    position: relative;
+    width: 833px;
+    height: 600px;
+    margin: 63px 92px
+}
+.maincontainerfour a{
+    text-decoration: none;
+}
+
+.card{
+    height: 436px;
+    background: white;
+    width: 374px;
+    position: absolute;
+    top: 123px;
+    left: 823px;
+    border: 0.5px solid black;
+
+}
+.card svg{
+    margin: 38px 0px 21px 45px;
+
+}
+.card h3{
+    width: 232px;
+    margin: 4px 0px 0px 45px;
+    font-size: 23px;
+    color: black;
+
+}
+.card p{
+    margin: 23px 0px 0px 41px;
+    font-size: 18px;
+    color: rgba(112, 112, 112, 1);
+
+}
+.card summary{
+    margin: 20px 0px 0px 43px;
+    color: black;
+}
+.cardtwo{
+    height: 436px;
+    background: white;
+    width: 374px;
+    position: absolute;
+    top: 123px;
+    left: 823px;
+    border: 0.5px solid black;
+
+}
+.cardtwo svg{
+    margin: 38px 0px 21px 45px;
+
+}
+.cardtwo h3{
+    width: 232px;
+    margin: 4px 0px 0px 45px;
+    font-size: 23px;
+    color: black;
+
+}
+.cardtwo p{
+    margin: 23px 0px 0px 41px;
+    font-size: 18px;
+    color: rgba(112, 112, 112, 1);
+
+}
+.cardtwo summary{
+    margin: 20px 0px 0px 43px;
+    color: black;
+}.cardthree{
+    height: 436px;
+    background: white;
+    width: 374px;
+    position: absolute;
+    top: 123px;
+    left: 823px;
+    border: 0.5px solid black;
+
+}
+.cardthree svg{
+    margin: 38px 0px 21px 45px;
+
+}
+.cardthree h3{
+    width: 232px;
+    margin: 4px 0px 0px 45px;
+    font-size: 23px;
+    color: black;
+
+}
+.cardthree p{
+    margin: 23px 0px 0px 41px;
+    font-size: 18px;
+    color: rgba(112, 112, 112, 1);
+
+}
+.cardthree summary{
+    margin: 20px 0px 0px 43px;
+    color: black;
+}
+.cardfour{
+    height: 436px;
+    background: white;
+    width: 374px;
+    position: absolute;
+    top: 123px;
+    left: 823px;
+    border: 0.5px solid black;
+
+}
+.cardfour svg{
+    margin: 38px 0px 21px 45px;
+
+}
+.cardfour h3{
+    width: 232px;
+    margin: 4px 0px 0px 45px;
+    font-size: 23px;
+    color: black;
+
+}
+.cardfour p{
+    margin: 23px 0px 0px 41px;
+    font-size: 18px;
+    color: rgba(112, 112, 112, 1);
+
+}
+.cardfour summary{
+    margin: 20px 0px 0px 43px;
+    color: black;
+}
+.threeimagecont{
+    height: 2276px;
+}
 .secondlast{
     position: relative;
     margin-top: 78px;
@@ -237,3 +418,6 @@ nav span {
     color: white;
     text-decoration: none;
   }
+  
+   
+
